@@ -5,6 +5,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" x:Class="PdmProject.MainPage"
              BackgroundColor="Beige">
+     <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Register admin" Order="Secondary" Clicked="ToolbarItem_ClickedRegister"></ToolbarItem>
+        <ToolbarItem Text="Add coffee" Order="Secondary" Clicked="ToolbarItem_ClickedAddCoffee"></ToolbarItem>
+        <ToolbarItem Text="Coffees" Order="Secondary" Clicked="ToolbarItem_ClickedCoffees"></ToolbarItem>
+        <ToolbarItem Text="Dashboard" Order="Secondary" Clicked="ToolbarItem_ClickedDashboard"></ToolbarItem>
+    </ContentPage.ToolbarItems>
     <StackLayout>
         <Label Text="Welcome to TaxiCoffee!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         <Button x:Name="btnLogin" Text="Login as Administrator" Clicked="btn_LoginClicked"  />

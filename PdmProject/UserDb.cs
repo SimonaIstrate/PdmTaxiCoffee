@@ -9,7 +9,6 @@ namespace PdmProject
     {
 
         private SQLiteConnection db;
-        private string dbPath;
 
         public UserDb()
         {

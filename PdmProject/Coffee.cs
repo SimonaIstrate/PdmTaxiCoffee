@@ -7,22 +7,10 @@ namespace PdmProject
     public class Coffee
     {
         
-        [PrimaryKey, AutoIncrement, Column("_id")]
-        public int id { get; set; }
+        [PrimaryKey, AutoIncrement]
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public double Price { get; set; }
-
-        public Coffee()
-        {
-        }   
-
-
-        public Coffee(string Name, string Description, double price)
-        {
-            this.Name = Name;
-            this.Description = Description;
-            this.Price = price;
-        }
+        public int Price { get; set; }
     }      
 }

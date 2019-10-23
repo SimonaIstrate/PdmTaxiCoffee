@@ -43,7 +43,7 @@ namespace PdmProject
             if (UserDB.checkCredentials(Username, Password))
             {
                 UserManager.init(UserDB.getUser(Username, Password));
-                Navigation.PushAsync(new MainPage());
+                Navigation.PushAsync(new CoffeesPage());
             }
             else
             {

@@ -9,7 +9,7 @@ namespace PdmProject
     { 
         private string Name;
         private string Description;
-        private double Price = 0;
+        private string Price;
 
         public event EventHandler CreateCoffeeSucceeded;
 
@@ -39,7 +39,7 @@ namespace PdmProject
 
         private void coffeePrice_TextChanged(object sender, TextChangedEventArgs e)
         {
-            Price = double.Parse(((Entry)sender).Text);
+            Price = ((Entry)sender).Text;
         }
 
 
@@ -62,7 +62,7 @@ namespace PdmProject
                 DisplayAlert("Error", "Please insert description!", "Ok");
                 return false;
             }
-            if (Price == 0 )
+            if (Price == null || Price == "" )
             {
                 DisplayAlert("Error", "Please insert price!", "Ok");
                 return false;
@@ -75,7 +75,11 @@ namespace PdmProject
             if (validateFields())
             {
 
-                Coffee coffee = new Coffee(Name, Description, Price);
+                Coffee coffee = new Coffee();
+                coffee.Name = Name;
+                coffee.Description = Description;
+                coffee.Price = Int32.Parse(Price);
+
                 if (coffeeDb.insert(coffee) > 0)
                 {
                     if (CreateCoffeeSucceeded != null)
