@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PdmProject.AddCoffeePage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Entry Placeholder="Coffee name"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   x:Name="coffeeName"/>
+            <Entry Placeholder="Coffee description"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   x:Name="coffeeDescription"/>
+            <Entry Placeholder="Coffee price"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   x:Name="coffeePrice"/>
+            <Button Text="Add"
+                    Grid.Row="5"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="1"
+                    Clicked="btnAdd_Clicked"
+                    x:Name="btnAdd"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
