@@ -34,6 +34,11 @@ namespace PdmProject
             return db.DeleteAll<Coffee>();
         }
 
+        public int delete(Coffee coffee)
+        { 
+            return db.Delete(coffee);
+        }
+
         public List<Coffee> getcoffeesList()
         {
             return db.Query<Coffee>("SELECT * FROM [Coffees]");

@@ -82,15 +82,13 @@ namespace PdmProject
 
                 if (coffeeDb.insert(coffee) > 0)
                 {
-                    if (CreateCoffeeSucceeded != null)
-                    {
-                        resetFields();
-                        CreateCoffeeSucceeded(this, EventArgs.Empty);
-                        Navigation.RemovePage(this);
-                        return;
-                    }
+                    DisplayAlert("Success", "Coffee was addedd successfully!", "Ok");
+                    resetFields();
                 }
-                DisplayAlert("Error", "An error was showed, please try again", "Close");
+                else
+                {
+                    DisplayAlert("Error", "An error was showed, please try again", "Close");
+                }
             }
 
         }
