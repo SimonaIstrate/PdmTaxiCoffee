@@ -1,0 +1,17 @@
+/Users/sistrate/Projects/PdmProject/PdmProject/bin/Debug/netstandard2.0/PdmProject.deps.json
+/Users/sistrate/Projects/PdmProject/PdmProject/bin/Debug/netstandard2.0/PdmProject.dll
+/Users/sistrate/Projects/PdmProject/PdmProject/bin/Debug/netstandard2.0/ref/PdmProject.dll
+/Users/sistrate/Projects/PdmProject/PdmProject/bin/Debug/netstandard2.0/PdmProject.pdb
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/AddCoffeePage.xaml.g.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/CoffeesPage.xaml.g.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/DashboardPage.xaml.g.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/LoginPage.xaml.g.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/RegisterPage.xaml.g.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/PdmProject.AssemblyInfoInputs.cache
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/PdmProject.AssemblyInfo.cs
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/PdmProject.dll
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/ref/PdmProject.dll
+/Users/sistrate/Projects/PdmProject/PdmProject/obj/Debug/netstandard2.0/PdmProject.pdb
