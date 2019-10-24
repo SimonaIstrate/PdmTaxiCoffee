@@ -1,36 +1,29 @@
 ﻿<Properties StartupConfiguration="{FAF1464B-C494-472E-B83D-7649C77D5A5D}|Default">
   <MonoDevelop.Ide.ItemProperties.PdmProject.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="PdmProject/CoffeShops.cs">
     <Files>
       <File FileName="PdmProject/MyPage.xaml" Line="1" Column="1" />
-      <File FileName="PdmProject/MyPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="PdmProject/AddCoffeePage.xaml" Line="1" Column="1" />
-      <File FileName="PdmProject/App.xaml" Line="1" Column="1" />
-      <File FileName="PdmProject/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="PdmProject/Coffee.cs" Line="1" Column="1" />
-      <File FileName="PdmProject/CoffeeDb.cs" Line="1" Column="1" />
+      <File FileName="PdmProject/MyPage.xaml.cs" />
+      <File FileName="PdmProject/AddCoffeePage.xaml" />
+      <File FileName="PdmProject/App.xaml" />
+      <File FileName="PdmProject/AssemblyInfo.cs" />
+      <File FileName="PdmProject/Coffee.cs" />
+      <File FileName="PdmProject/CoffeeDb.cs" />
       <File FileName="PdmProject/CoffeeManager.cs" Line="1" Column="1" />
-      <File FileName="PdmProject/CoffeesPage.xaml" Line="1" Column="1" />
-      <File FileName="PdmProject/DashboardPage.xaml" Line="1" Column="1" />
-      <File FileName="PdmProject/EmptyClass.cs" Line="1" Column="1" />
-      <File FileName="PdmProject/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="PdmProject/CoffeesPage.xaml" />
+      <File FileName="PdmProject/DashboardPage.xaml" />
+      <File FileName="PdmProject/EmptyClass.cs" />
+      <File FileName="PdmProject/LoginPage.xaml" />
+      <File FileName="PdmProject/CoffeShops.cs" Line="11" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PdmProject" expanded="True">
             <Node name="PdmProject" expanded="True">
-              <Node name="CoffeesPage.xaml" selected="True" />
+              <Node name="LoginPage.xaml" selected="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>specialDirectory</Value>
-          <Value>dbPath</Value>
-          <Value>coffee</Value>
-          <Value>CreateCoffeeSucceeded</Value>
         </State>
       </Pad>
     </Pads>
