@@ -1,25 +1,26 @@
 ﻿<Properties StartupConfiguration="{FAF1464B-C494-472E-B83D-7649C77D5A5D}|Default">
   <MonoDevelop.Ide.ItemProperties.PdmProject.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="PdmProject/MyPage.xaml" Line="1" Column="1" />
+      <File FileName="PdmProject/MyPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="PdmProject/AddCoffeePage.xaml" Line="1" Column="1" />
+      <File FileName="PdmProject/App.xaml" Line="1" Column="1" />
+      <File FileName="PdmProject/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="PdmProject/Coffee.cs" Line="1" Column="1" />
+      <File FileName="PdmProject/CoffeeDb.cs" Line="1" Column="1" />
+      <File FileName="PdmProject/CoffeeManager.cs" Line="1" Column="1" />
+      <File FileName="PdmProject/CoffeesPage.xaml" Line="1" Column="1" />
+      <File FileName="PdmProject/DashboardPage.xaml" Line="1" Column="1" />
+      <File FileName="PdmProject/EmptyClass.cs" Line="1" Column="1" />
+      <File FileName="PdmProject/LoginPage.xaml" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PdmProject" expanded="True">
             <Node name="PdmProject" expanded="True">
-              <Node name="AddCoffeePage.xaml" expanded="True" />
-              <Node name="CoffeesPage.xaml" expanded="True" />
-              <Node name="LoginPage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
-              <Node name="RegisterPage.xaml" expanded="True" />
-            </Node>
-            <Node name="PdmProject.Android" expanded="True">
-              <Node name="Packages" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="drawable" expanded="True" />
-              </Node>
+              <Node name="CoffeesPage.xaml" selected="True" />
             </Node>
           </Node>
         </State>
