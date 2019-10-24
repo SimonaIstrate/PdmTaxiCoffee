@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PdmProject.CoffeesPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PdmProject.CoffeesPage"
+             Title="Coffees">   
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Register admin" Order="Secondary" Clicked="ToolbarItem_ClickedRegister"></ToolbarItem>
+        <ToolbarItem Text="Add coffee" Order="Secondary" Clicked="ToolbarItem_ClickedAddCoffee"></ToolbarItem>
+        <ToolbarItem Text="Coffees" Order="Secondary" Clicked="ToolbarItem_ClickedCoffees"></ToolbarItem>
+        <ToolbarItem Text="Coffee shops" Order="Secondary" Clicked="ToolbarItem_ClickedDashboard"></ToolbarItem>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
      <ListView x:Name="listViewCoffees">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-                <Grid BackgroundColor="Cornsilk">
+                <Grid BackgroundColor="WhiteSmoke">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>

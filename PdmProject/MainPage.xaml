@@ -4,16 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" x:Class="PdmProject.MainPage"
-             BackgroundColor="Beige">
-     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Register admin" Order="Secondary" Clicked="ToolbarItem_ClickedRegister"></ToolbarItem>
-        <ToolbarItem Text="Add coffee" Order="Secondary" Clicked="ToolbarItem_ClickedAddCoffee"></ToolbarItem>
-        <ToolbarItem Text="Coffees" Order="Secondary" Clicked="ToolbarItem_ClickedCoffees"></ToolbarItem>
-        <ToolbarItem Text="Dashboard" Order="Secondary" Clicked="ToolbarItem_ClickedDashboard"></ToolbarItem>
-    </ContentPage.ToolbarItems>
+             BackgroundImageSource="background.jpg"
+             >
+    
     <StackLayout>
-        <Label Text="Welcome to TaxiCoffee!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
-        <Button x:Name="btnLogin" Text="Login as Administrator" Clicked="btn_LoginClicked"  />
-        <Button x:Name="btnClient" Text="Go to coffees" />
+        <Label Text="Welcome to TaxiCoffee!" TextColor="White"  FontSize="Large" HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" AnchorY="10"/>
+        <Button BackgroundColor="WhiteSmoke" x:Name="btnLogin" Text="Login as Admin" Clicked="btn_LoginClicked"  />
+        <Button BackgroundColor="WhiteSmoke" x:Name="btnClient" Text="Order coffee" />
     </StackLayout>
 </ContentPage>

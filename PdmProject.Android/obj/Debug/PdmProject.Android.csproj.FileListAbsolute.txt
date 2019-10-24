@@ -532,3 +532,6 @@
 /Users/sistrate/Projects/PdmProject/PdmProject.Android/obj/Debug/res/drawable/fr.jpg
 /Users/sistrate/Projects/PdmProject/PdmProject.Android/obj/Debug/res/drawable/am.jpg
 /Users/sistrate/Projects/PdmProject/PdmProject.Android/obj/Debug/res/drawable/ma.jpg
+/Users/sistrate/Projects/PdmProject/PdmProject.Android/obj/Debug/res/drawable/coffee.jpeg
+/Users/sistrate/Projects/PdmProject/PdmProject.Android/obj/Debug/res/drawable/background.jpg
+/Users/sistrate/Projects/PdmProject/PdmProject.Android/obj/Debug/res/drawable/coffee.jpg

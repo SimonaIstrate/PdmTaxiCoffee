@@ -1,27 +1,26 @@
 ﻿<Properties StartupConfiguration="{FAF1464B-C494-472E-B83D-7649C77D5A5D}|Default">
   <MonoDevelop.Ide.ItemProperties.PdmProject.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PdmProject/CoffeShops.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="PdmProject/MyPage.xaml" Line="1" Column="1" />
-      <File FileName="PdmProject/MyPage.xaml.cs" />
-      <File FileName="PdmProject/AddCoffeePage.xaml" />
-      <File FileName="PdmProject/App.xaml" />
-      <File FileName="PdmProject/AssemblyInfo.cs" />
-      <File FileName="PdmProject/Coffee.cs" />
-      <File FileName="PdmProject/CoffeeDb.cs" />
-      <File FileName="PdmProject/CoffeeManager.cs" Line="1" Column="1" />
-      <File FileName="PdmProject/CoffeesPage.xaml" />
-      <File FileName="PdmProject/DashboardPage.xaml" />
-      <File FileName="PdmProject/EmptyClass.cs" />
-      <File FileName="PdmProject/LoginPage.xaml" />
-      <File FileName="PdmProject/CoffeShops.cs" Line="11" Column="1" />
+      <File FileName="PdmProject/MainPage.xaml" Line="11" Column="81" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PdmProject" expanded="True">
             <Node name="PdmProject" expanded="True">
-              <Node name="LoginPage.xaml" selected="True" />
+              <Node name="AddCoffeePage.xaml" expanded="True" />
+              <Node name="CoffeesPage.xaml" expanded="True" />
+              <Node name="DashboardPage.xaml" expanded="True" />
+              <Node name="LoginPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+              <Node name="MyPage.xaml" expanded="True" />
+              <Node name="RegisterPage.xaml" expanded="True" />
+            </Node>
+            <Node name="PdmProject.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

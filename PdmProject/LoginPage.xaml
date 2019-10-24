@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PdmProject.LoginPage"
-             Title="Login">
+             Title="Login"
+             BackgroundImageSource="coffee.jpeg">
     <ContentPage.Content>
        <StackLayout>
-            <Label Text="Login" VerticalOptions="Center" HorizontalOptions="Center" />
-            <Entry x:Name="UsernameEntry" Placeholder="Username" />
-            <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="true"  />
+            <Entry x:Name="UsernameEntry" TextColor="White" Placeholder="Username" />
+            <Entry x:Name="PasswordEntry" TextColor="White" Placeholder="Password" IsPassword="true"  />
             <Button x:Name="LoginButton" Text="Login" />
             <Button x:Name="RegisterButton" Text="Register" />
        </StackLayout> 

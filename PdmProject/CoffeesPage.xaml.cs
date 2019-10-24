@@ -20,12 +20,31 @@ namespace PdmProject
         }
 
         public async void getCoffees()
-        {
-           
+        { 
             if (currentCoffeesList.Count > 0)
             {
                 listViewCoffees.ItemsSource = currentCoffeesList;
             }
+        }
+
+        private void ToolbarItem_ClickedRegister(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage());
+        }
+
+        private void ToolbarItem_ClickedAddCoffee(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddCoffeePage());
+        }
+
+        private void ToolbarItem_ClickedCoffees(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CoffeesPage());
+        }
+
+        private void ToolbarItem_ClickedDashboard(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DashboardPage());
         }
     }
 }
