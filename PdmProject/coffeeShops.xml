@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Filme>
+   <Film>
+      <Cod>FLM01</Cod>
+      <Nume>Depicable Me 3</Nume>
+      <Categorie>Comedie</Categorie>
+      <Durata>156</Durata>
+      <Descriere>Film animat. Continuare Despicable Me 2.</Descriere>
+      <Data>12.06.2017</Data>
+   </Film>
+   <Film>
+      <Cod>FLM02</Cod>
+      <Nume>Annabelle 2</Nume>
+      <Categorie>Horror</Categorie>
+      <Durata>145</Durata>
+      <Descriere>Film de groaza</Descriere>
+      <Data>13.10.2017</Data>
+   </Film>
+   <Film>
+      <Cod>FLM03</Cod>
+      <Nume>IT</Nume>
+      <Categorie>Horror</Categorie>
+      <Durata>143</Durata>
+      <Descriere>Film de groaza. In Box Office dupa prima saptamana.</Descriere>
+      <Data>30.09.2017</Data>
+   </Film>
+   <Film>
+      <Cod>FLM04</Cod>
+      <Nume>Titalnic</Nume>
+      <Categorie>Romance</Categorie>
+      <Durata>123</Durata>
+      <Descriere>Prea de dragoste.</Descriere>
+      <Data>12.08.1997</Data>
+   </Film>
+   <Film>
+      <Cod>FLM05</Cod>
+      <Nume>The Shawshank Redemption</Nume>
+      <Categorie>Actiune</Categorie>
+      <Durata>156</Durata>
+      <Descriere>Cel mai bun fil din toate timpurile IMDB</Descriere>
+      <Data>02.03.1994</Data>
+   </Film>
+   <Film>
+      <Cod>FLM06</Cod>
+      <Nume>Baywatch</Nume>
+      <Categorie>Comedie</Categorie>
+      <Durata>98</Durata>
+      <Descriere>The Rock in actiune</Descriere>
+      <Data>02.09.2017</Data>
+   </Film>
+   <Film>
+      <Cod>FLM07</Cod>
+      <Nume>Jumanji 2</Nume>
+      <Categorie>Comedie</Categorie>
+      <Durata>120</Durata>
+      <Descriere>The Rock in actiune</Descriere>
+      <Data>06.12.2017</Data>
+   </Film>
+   <Film>
+      <Cod>FLM08</Cod>
+      <Nume>Zombieland</Nume>
+      <Categorie>Horror</Categorie>
+      <Durata>104</Durata>
+      <Descriere>De groaza</Descriere>
+      <Data>06.09.2009</Data>
+   </Film>
+</Filme>
